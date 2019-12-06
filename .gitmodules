@@ -16,3 +16,6 @@
 [submodule "src/github.com/onsi/ginkgo"]
 	path = src/github.com/onsi/ginkgo
 	url = https://github.com/onsi/ginkgo
+[submodule "src/cf-mysql-broker"]
+	path = src/cf-mysql-broker
+	url = https://github.com/cloudfoundry/cf-mysql-broker.git

@@ -1,0 +1,12 @@
+---
+name: mariadb
+
+dependencies:
+- galera
+
+files:
+- mariadb/**/*
+- mariadb-patch/*
+
+
+# https://downloads.mariadb.org/interstitial/mariadb-10.1.38/source/mariadb-10.1.38.tar.gz/from/http%3A//ftp.hosteurope.de/mirror/archive.mariadb.org/

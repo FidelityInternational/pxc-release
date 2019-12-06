@@ -1,0 +1,9 @@
+---
+name: mysqlclient # https://downloads.mariadb.org/interstitial/connector-c-2.1.0/source-tgz/mariadb-connector-c-2.1.0-src.tar.gz/from/http%3A//ftp.hosteurope.de/mirror/archive.mariadb.org/
+
+dependencies:
+
+files:
+- mysqlclient/**/* 
+
+# https://downloads.mariadb.org/interstitial/connector-c-2.1.0/source-tgz/mariadb-connector-c-2.1.0-src.tar.gz/from/http%3A//ftp.hosteurope.de/mirror/archive.mariadb.org/

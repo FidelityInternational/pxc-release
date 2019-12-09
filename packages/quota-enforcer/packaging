@@ -8,6 +8,7 @@ cp -a . ${BOSH_INSTALL_TARGET}/src
 export GOROOT=$(readlink -nf /var/vcap/packages/golang-1.13-linux)
 export GOPATH=${BOSH_INSTALL_TARGET}
 export PATH=${GOROOT}/bin:${GOPATH}/bin:${PATH}
+export GOCACHE="/tmp/.cache"
 
 go install quota-enforcer
 

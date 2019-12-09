@@ -1,7 +1,7 @@
 <%=
   db_port = nil
   if_link('proxy') do |proxy|
-    db_port = proxy.p('cf_mysql.proxy.port')
+    db_port = proxy.p('port')
   end.else do
     db_port = link('mysql').p('cf_mysql.mysql.port')
   end

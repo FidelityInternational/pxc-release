@@ -12,6 +12,9 @@ cli/cf-cli_6.47.2_linux_x86-64.tgz:
 galera/galera-25.3.23.tar.gz:
   size: 3338538
   sha: sha256:2a0fcc453d1eac5031c822eb0ec0f2c446b21b1cb12ef30c045326f10b62ee86
+golang/go1.13.5.linux-amd64.tar.gz:
+  size: 120074076
+  sha: sha256:512103d7ad296467814a6e3f635631bd35574cab3369a97a323c9a585ccaa569
 libaio/libaio_0.3.110.orig.tar.gz:
   size: 42270
   object_id: ffce712d-c4f3-4a3b-764a-42f949b43ad3

@@ -10,6 +10,7 @@ consumes:
 - name: broker
   type: broker
 
-packages: []
+packages:
+- mariadb
 
 properties: {}

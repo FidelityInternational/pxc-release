@@ -31,13 +31,6 @@ production:
     <% (service['tags'] || []).each do |tag| %>
     - <%= tag %>
     <% end %>
-    metadata:
-      displayName: <%= service['metadata']['displayName'] %>
-      imageUrl: <%= service['metadata']['imageUrl'] %>
-      longDescription: <%= service['metadata']['longDescription'] %>
-      providerDisplayName: <%= service['metadata']['providerDisplayName'] %>
-      documentationUrl: <%= service['metadata']['documentationUrl'] %>
-      supportUrl: <%= service['metadata']['supportUrl'] %>
     plans:
     <% (service['plans'] || []).each do |plan| %>
       - id: <%= plan['id'] || plan['guid'] %>

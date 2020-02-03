@@ -2,8 +2,11 @@ name: pxc
 
 releases:
 - name: pxc
-  version: latest
+  version: "0.21.5"
+  url: "http://paas-lab-minio.uk.fid-intl.com:9001/bosh-artifacts/releases/pxc-release-0.21.5.tgz"
+  sha1: "a3a46bba81e94e650fda35f85cd3da0ae1264178"
 - name: bpm
+  url: "http://paas-lab-minio.uk.fid-intl.com:9001/bosh-artifacts/releases/bpm-1.1.0-ubuntu-xenial-315.36-20190610-155244-17035177-20190610155251.tgz"
   version: latest
 
 addons:
